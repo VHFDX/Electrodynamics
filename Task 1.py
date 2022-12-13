@@ -14,4 +14,4 @@ if __name__ == '__main__':
 
     with open("results/results.csv", "w", encoding="utf-8") as file:
         for i in range(len(x)):
-            file.write('{} строка: x= {}, f(x)= {}\n'.format(i+1,x[i], y[i]))
+            file.write('{}, {}, {}\n'.format(i+1,x[i], y[i]))
