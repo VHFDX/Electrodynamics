@@ -28,7 +28,6 @@ if __name__=='__main__':
     with open('datresh.xml', 'r') as file:
         book = file.readlines()
     var = int(input('Введите ваш вариант: '))
-    var -=1
     shkala = int(input('Введите приближение(число шагов): '))
     print(book[var])
     print(re.findall('\d+[.]*\d*e*[-]*\d*', book[var]))
