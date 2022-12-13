@@ -23,7 +23,7 @@ def sigma(povtor,x):
     return sigm
 
 if __name__=='__main__':
-    url = 'https://jenyay.net/uploads/Student/Modelling/task_02.txt'
+    url = 'https://jenyay.net/uploads/Student/Modelling/task_02_02.txt'
     urllib.request.urlretrieve(url, 'datresh.xml')
     with open('datresh.xml', 'r') as file:
         book = file.readlines()
