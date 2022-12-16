@@ -479,7 +479,8 @@ if __name__ == '__main__':
     plt.xlim(-2.5, 2.5)
     plt.grid()
     plt.xlabel('f, ГГц')
-    plt.show()
     display.stop()
+    plt.show()
+    
     
     
